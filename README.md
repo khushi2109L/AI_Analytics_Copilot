@@ -38,7 +38,8 @@ An AI-powered analytics dashboard built with **Streamlit**, **Pandas**, **Plotly
 ### Main Dashboard
 Displays dataset preview, KPIs, summary statistics, charts, AI insights, and chatbot.
 
-> *(Add screenshots here after deployment.)*
+<img width="1366" height="586" alt="Homepage" src="https://github.com/user-attachments/assets/e9be5bdb-028e-4dcc-89ae-db85bbd147d5" />
+
 
 ---
 
@@ -112,10 +113,8 @@ streamlit run app.py
 
 ## 📈 Future Improvements
 
-- Advanced Data Cleaning Suggestions
 - Predictive Analytics
 - Correlation Heatmaps
-- Export Dashboard as PDF
 - Session Chat History
 - Multiple Dataset Comparison
 
