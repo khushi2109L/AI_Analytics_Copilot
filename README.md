@@ -39,6 +39,12 @@ An AI-powered analytics dashboard built with **Streamlit**, **Pandas**, **Plotly
 Displays dataset preview, KPIs, summary statistics, charts, AI insights, and chatbot.
 
 <img width="1366" height="586" alt="Homepage" src="https://github.com/user-attachments/assets/e9be5bdb-028e-4dcc-89ae-db85bbd147d5" />
+<img width="1366" height="602" alt="Preview" src="https://github.com/user-attachments/assets/d580eb44-fbd8-409e-a7d5-5540701677f8" />
+<img width="1357" height="603" alt="Analysis" src="https://github.com/user-attachments/assets/086e1649-c6cf-4ffa-94a5-fc855dd903ef" />
+<img width="1366" height="606" alt="AI_Chat" src="https://github.com/user-attachments/assets/a130f223-a69f-4c47-9ad3-9f9f1cb7b41d" />
+
+
+
 
 
 ---
