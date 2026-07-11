@@ -238,11 +238,11 @@ if chat_button:
 
         Answer the user's question clearly and professionally.
         """
-       try:
-    with st.spinner("🤖 Gemini is thinking..."):
-        response = client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=prompt
+      try:
+          with st.spinner("🤖 Gemini is thinking..."):
+              response = client.models.generate_content(
+                 model="gemini-2.5-flash",
+                 contents=prompt
         )
 
     st.markdown(response.text)
