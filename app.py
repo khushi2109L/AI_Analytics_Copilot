@@ -238,15 +238,17 @@ if chat_button:
 
         Answer the user's question clearly and professionally.
         """
-      try:
-          with st.spinner("🤖 Gemini is thinking..."):
-              response = client.models.generate_content(
+     try:
+         with st.spinner("🤖 Gemini is thinking..."):
+             response = client.models.genrate_content(
                  model="gemini-2.5-flash",
                  contents=prompt
-        )
-
-    st.markdown(response.text)
+             )
+             
+        st.markdown(response.text)
 
 except Exception:
     st.error("Unable to generate a response right now. Please try again later.")
+
+
        
