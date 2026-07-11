@@ -219,7 +219,7 @@ if chat_button:
         Columns: {df.shape[1]}
 
         Dataset:
-        {df.to_string()}
+       {df.head(100).to_string()}
 
         Column Names:
         {list(df.columns)}
@@ -238,11 +238,15 @@ if chat_button:
 
         Answer the user's question clearly and professionally.
         """
-        with st.spinner("🤖 Gemini is thinking..."):
+       try:
+    with st.spinner("🤖 Gemini is thinking..."):
+        response = client.models.generate_content(
+            model="gemini-2.5-flash",
+            contents=prompt
+        )
 
-            response = client.models.generate_content(
-                model="gemini-2.5-flash",
-                contents=prompt
-            )
+    st.markdown(response.text)
 
-        st.markdown(response.text)
+except Exception:
+    st.error("Unable to generate a response right now. Please try again later.")
+       
